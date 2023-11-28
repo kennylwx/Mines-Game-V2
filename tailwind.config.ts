@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        borderColor: "#ffffff",
+        pageBgColor: "#0E0C15",
+        textColor: "#f0f0f0",
+      },
       backgroundImage: {},
     },
     screens: {

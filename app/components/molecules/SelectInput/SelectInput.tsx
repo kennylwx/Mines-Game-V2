@@ -11,7 +11,7 @@ const SelectInput = ({
   label = "Number of Mines",
   id = "numOfMines",
   value = 5,
-  onChange = () => void,
+  onChange = () => {},
 }: Props) => {
   return (
     <div className="">
@@ -27,7 +27,6 @@ const SelectInput = ({
         value={value}
         onChange={onChange}
       >
-
         <option selected value="1">
           1
         </option>
